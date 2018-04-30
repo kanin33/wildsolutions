@@ -66,6 +66,8 @@ double boundary(double x, double y, double z, double q) {
 }
 ```
 
+Note that in the C++ program the ``f`` function is always 1.
+
 ## Authors
 
 **Tale Ulfsby**
