@@ -27,11 +27,11 @@ fast_march(grid=solution_grid,
            F=lambda x, y, z, q: 1)
 print solution_grid[50, 50, 50, 50]
 ```
-The solution will be stored in the Grid-object. The above code will print the solution in the mid point of the grid, which corresponds to the point $$(0, 0, 0, 0)$$.
+The solution will be stored in the Grid-object. The above code will print the solution in the mid point of the grid, which corresponds to the point ``(0, 0, 0, 0)``.
 
 The boundary function should return a negative number if the given point is inside the domain, and a positive number if it is outside.
 
-Note that $$\Omega$$ should be completely contained in the box defined by the minimum and maximum values.
+Note that ``Omega`` should be completely contained in the box defined by the minimum and maximum values.
 
 ### C++
 ##### Compiling
@@ -40,6 +40,8 @@ The program should be compiled with Clang++ using the included Makefile. From th
 >> make
 ```
 when in the C++ directory. The output file is named *tale*.
+
+Note that the Sparseepp library must be contained in the same directory as compiling from.
 
 ##### Running
 To compute the solution to the Eikonal equation when ``Omega`` is a sphere and ``f`` is constantly equal to 1, this should be written in the main file:
@@ -70,4 +72,4 @@ double boundary(double x, double y, double z, double q) {
 
 ## Acknowledgments
 
-Thanks to Halvard Kverna for help with the C++ program.
+Thanks to Halvard Kværna for help with the C++ program.
