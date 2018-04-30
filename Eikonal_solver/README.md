@@ -1,6 +1,6 @@
 # Eikonal solver
 
-Python 2.7 and C++ programs to solve the Eikonal equation $$\nabla u(x)|=1/f(x), \ x\in \Omega$$ when $$\Omega$$ is a 4 dimensional bounded domain.
+Python 2.7 and C++ programs to solve the Eikonal equation ``|grad(u(x))|=1/f(x),  x in Omega `` when ``Omega`` is a 4 dimensional bounded domain.
 
 ### Prerequisites
 
@@ -13,7 +13,7 @@ Dependencies for the C++ program are
 - Clang++ for compiling
 
 ### Python
-To compute the solution to the Eikonal equation when $$\Omega$$ is a sphere and $$f$$ is constantly equal to 1, simply type:
+To compute the solution to the Eikonal equation when ``Omega`` is a sphere and ``f`` is constantly equal to 1, simply type:
 ```python
 solution_grid = Grid(standard_value=0, shape=(100)*4)
 def boundary_function(x, y, z, q):
@@ -42,7 +42,7 @@ The program should be compiled with Clang++ using the included Makefile. From th
 when in the C++ directory. The output file is named *tale*.
 
 ##### Running
-To compute the solution to the Eikonal equation when $$\Omega$$ is a sphere and $$f$$ is constantly equal to 1, this should be written in the main file:
+To compute the solution to the Eikonal equation when ``Omega`` is a sphere and ``f`` is constantly equal to 1, this should be written in the main file:
 ```C++
 int n = 50;
 int number[4] = {n, n, n, n};
