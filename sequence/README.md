@@ -58,7 +58,7 @@ seq, z_k = compute_gen_ex_5_6(max_iterations,
                               z_k=z_k)
 ```
 
-Given a Sequence object `z\_k` it is possible to e.g. plot the error and the
+Given a Sequence object `z_k` it is possible to e.g. plot the error and the
 product of the eigenvalues of the matrix associated with `(v, u)(t, x)`.
 
 ```python
