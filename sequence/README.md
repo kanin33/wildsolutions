@@ -7,21 +7,20 @@ Dependencies for the Python program are
 - Numpy 1.13.3 or newer
 - Matplotlib 2.1.0 or newer
 - Matlab engine for Python
-- ??
 
 Dependencies for the Matlab programs are
 - Matlab r2016a or newer
 - Chebfun 5.7.0 or newer
 
-# Usage
-## Setup
+### Usage
+#### Setup
 The Matlab files included in *matlab\_programs* must be in the Matlab path on your local machine.
 You must have a distance-file with data to check the distance to the boundary of U. This can be created using the Eikonal solver.
 
-## Example
+#### Example
 The following example shows how to continue computing a sequence using existing
 data from a previous simulation. If there is no data in the given directory,
-the file starts a new simulation.
+this starts a new simulation.
 
 ```python
 from sequence_examples import *
