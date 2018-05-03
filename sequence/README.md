@@ -58,7 +58,23 @@ seq, z_k = compute_gen_ex_5_6(max_iterations,
                               z_k=z_k)
 ```
 
+Given a Sequence object `z\_k` it is possible to e.g. plot the error and the
+product of the eigenvalues of the matrix associated with `(v, u)(t, x)`.
+
+```python
+from plot_functions import *
+plot_eigen_error(z_k,
+                 t=np.float64(1.5),
+                 x1_min=-2, x1_max=2,
+                 x2_min=-1.30661, x2_max=2.69339,
+                 n=500,
+                 plot_type="ered",
+                 fig_name="plot.png")
+```
+This results in the image
+![Alt text](additional_files/plot.png?raw=true "Eigenvalue product")
 
 ## Authors
+
 
 **Tale Ulfsby**
