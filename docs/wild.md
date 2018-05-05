@@ -2,4 +2,4 @@
 layout: default
 ---
 
-<img src="images/testgif.gif" width="500"/>
+<img src="images/test1.mov" width="500"/>
