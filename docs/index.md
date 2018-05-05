@@ -2,7 +2,6 @@
 layout: default
 ---
 
-[Link to another page](./eikonal.html)
 <img src="images/post.jpg" width="1000"/>
 
 # Wild solutions
