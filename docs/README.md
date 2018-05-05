@@ -1,4 +1,4 @@
-<img src="images/post.jpg" width="1000"/>
+<img src="docs/images/post.jpg" width="1000"/>
 
 # Wild solutions
 Programs used to numerically construct wild solutions to the 2 dimensional Euler equations.
