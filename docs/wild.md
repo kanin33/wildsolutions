@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[back](./)
+[Back to front page](./)
 
 
 <img src="images/testgif.gif" width="500"/>
