@@ -11,6 +11,6 @@ This directory contains programs used to compute a sequence of functions converg
 
 See each subdirectory for information about the files and examples of usage.
 
-## Authors
+## Author
 
 **Tale Ulfsby**
