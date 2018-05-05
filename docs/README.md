@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <img src="images/post.jpg" width="1000"/>
 
 # Wild solutions
