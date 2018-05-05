@@ -1,5 +1,12 @@
 ---
 layout: default
 ---
+[back](./)
 
-<img src="images/test1.mov" width="500"/>
+
+<img src="images/testgif.gif" width="500"/>
+Bla bla what is this
+<img src="images/testgif.gif" width="500"/>
+bla
+<img src="images/testgif.gif" width="500"/>
+bla
