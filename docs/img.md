@@ -30,6 +30,6 @@ Streamlines after one step.
 Streamlines after 7 steps
 
 
-<img src="images/curlmany2.png" width="500"/>
+<img src="images/curlmany2.jpg" width="500"/>
 
 Curl after each step.
