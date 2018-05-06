@@ -4,16 +4,20 @@ layout: default
 
 <img src="images/post.jpg" width="1000"/>
 
-# Wild solutions
-Programs used to numerically construct wild solutions to the 2 dimensional Euler equations.
+The movies and images on this page are generated using the programs found on the corresponding GitHub page.
 
-## Eikonal solver
-This directory contains programs for solving the Eikonal equation in four dimensions.
 
-## sequence
-This directory contains programs used to compute a sequence of functions converging to a wild solution.
+## Wild solution gifs
+Gifs made from data representing a sequence of functions that should converge to a wild solution.
 
-See each subdirectory for information about the files and examples of usage.
+## Plane wave gifs
+Gifs of many localized plane waves added on top of each other.
+
+## Wild solution images
+Images of error, curl, streamlines etc.
+
+## Eikonal images
+Images of solutions of the Eikonal equation with different boundaries.
 
 ## Author
 
