@@ -7,13 +7,13 @@ layout: default
 
 All the below simulations are using 50 grid points in each dimension.
 
-<img src="images/error_circle.png" width="500"/> <img src="images/exact_circle.png" width="500"/>
+<img src="images/error_circle.png" width="500"/><img src="images/error_square.png" width="500"/>
 
-Error and exact solution when the boundary is a 4-dimensional sphere.
+Error when the boundary is a 4-dimensional sphere and a 4 dimensional box.
 
-<img src="images/error_square.png" width="500"/> <img src="images/exact_square.png" width="500"/>
+<img src="images/exact_circle.png" width="500"/><img src="images/exact_square.png" width="500"/>
 
-Error and exact solution when the boundary is a 4-dimensional box.
+Corresponding exact solutions.
 
 <img src="images/dusolved.png" width="500"/>
 
